@@ -30,7 +30,6 @@ class BasicTemplateFrameworkAlgorithm(QCAlgorithmFramework):
         self.trigger = False       
         self.Settings.RebalancePortfolioOnInsightChanges = False
         
-        
         self.SetUniverseSelection( MyUniverseSelectionModel(symbols) )    
            
         self.alpha = MABreakoutAlphaModel(resolution=Resolution.Daily, lookback=250, consolidationPeriod=1)
@@ -57,7 +56,6 @@ class BasicTemplateFrameworkAlgorithm(QCAlgorithmFramework):
     def OnOrderEvent(self, orderEvent):
         if orderEvent.Status == OrderStatus.Filled:
             pass
- 
 
 class MyUniverseSelectionModel(FundamentalUniverseSelectionModel):
 
@@ -67,7 +65,5 @@ class MyUniverseSelectionModel(FundamentalUniverseSelectionModel):
     def SelectCoarse(self, algorithm, coarse):
         filtered = [x for x in coarse if x.HasFundamentalData > 0 and x.Price > 0]
         sortedByDollarVolume = sorted(filtered, key=lambda x: x.DollarVolume, reverse=True)
-        return [x.Symbol for x in sortedByDollarVolume][:50]
+        return [x.Symbol for x in sortedByDollarVolume][:15]
 
-    
-        return [f.Symbol for f in fine] 
