@@ -17,10 +17,13 @@ First of all, the program takes the top 50 stocks in terms of trading volume thr
 
 ![alt text](https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/S%26P%20Top%2050%20Volume.png)
 
-Another universe is selected picking the top 50 stocks in terms of capital size.
 
 
-It can be seen that the success rate fluctuate above and below the 50% mark 
+Another universe is selected picking the top 50 stocks in terms of market capitalization.
+
+![alt text](https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/S%26P%20Top%2050%20Marketcap.png)
+
+
 
 
 # Conclusion:
