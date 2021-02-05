@@ -15,7 +15,7 @@ The performance is captured by only calculating its successful rate. The strateg
 
 First of all, the program takes the top 50 stocks in terms of trading volume throughout the backtest period. Result is shown below:
 
-![alt text](https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/S%26P%20Top%2050%20Volume.png)
+![alt text](h\https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/S%26P%20Top%2050%20Volume.png)
 
 Another universe is selected picking the top 50 stocks in terms of capital size.
 
@@ -24,4 +24,4 @@ It can be seen that the success rate fluctuate above and below the 50% mark
 
 
 # Conclusion:
-The success rate of this MA breakout strategy fluctuates over time, it seems that the method of buying the MA breakout cannot be proved to be a reliable and consistent strategy in a long-term.
+The success rate of this MA breakout strategy fluctuates over time, and it sometimes drop to as low as 30%. It seems that the method of buying the MA breakout cannot be proved to be a consistent strategy but in the meanwhile could be a profitable strategy if suitable portfolio and risk management models are applied.
