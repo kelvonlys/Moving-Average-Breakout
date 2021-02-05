@@ -15,7 +15,7 @@ The performance is captured by only calculating its successful rate. The strateg
 
 First of all, the program takes the top 50 stocks in terms of trading volume throughout the backtest period. Result is shown below:
 
-![alt text](h\https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/S%26P%20Top%2050%20Volume.png)
+![alt text](https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/S%26P%20Top%2050%20Volume.png)
 
 Another universe is selected picking the top 50 stocks in terms of capital size.
 
