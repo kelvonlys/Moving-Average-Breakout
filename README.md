@@ -13,9 +13,12 @@ A buy signal is generated when the price breaks above the 5-days, 10-days and 20
 # Result
 The performance is captured by only calculating its successful rate. The strategy is regarded as successful if its price does not fall under its buying price within 5 days.
 
-Result is shown as below:
+First of all, the program takes the top 50 stocks in terms of trading volume throughout the backtest period. Result is shown below:
 
-![alt text](https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/alpha.png)
+![alt text](https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/S%26P%20Top%2050%20Volume.png)
+
+Another universe is selected picking the top 50 stocks in terms of capital size.
+
 
 It can be seen that the success rate fluctuate above and below the 50% mark 
 
