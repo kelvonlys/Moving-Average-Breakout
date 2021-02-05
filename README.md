@@ -15,7 +15,7 @@ The performance is captured by only calculating its successful rate. The strateg
 
 Result is shown as below:
 
-![ALT test] https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/alpha.png
+![ALT test]https://github.com/kelvonlys/Moving-Average-Breakout/blob/main/alpha.png
 
 It can be seen that the success rate fluctuate above and below the 50% mark 
 
