@@ -1,5 +1,5 @@
 # Moving-Average-Breakout
-This strategy applies 5-days, 10-days and 20-days simple moving averages in order to buy stocks when it breaks above the moving averages with a bullish candlestick pattern in daily resolution. 
+This strategy applies 5-days, 10-days and 20-days simple moving averages in order to buy stocks when it breaks above the moving averages with a bullish candlestick pattern on daily resolution. 
 
 
 # Objective
@@ -7,7 +7,7 @@ The objective of this project is to test if this moving average breakout strateg
 
 
 # Signal Generation
-A buy signal is generated when the price breaks above the 5-days, 10-days and 20-days simple moving averages with a bullish candlestick patterns. Noted that the 5-days SMA should be above 10-days SMA which is also above the 20-days SMA. 
+A buy signal is generated when the price breaks above the 5-days, 10-days and 20-days simple moving averages with bullish candlestick patterns. The 5-days SMA should be above 10-days SMA which is also above the 20-days SMA. 
 
 
 # Result
@@ -27,4 +27,4 @@ Another universe is selected picking the top 50 stocks in terms of market capita
 
 
 # Conclusion:
-The success rate of this MA breakout strategy fluctuates over time, and it sometimes drop to as low as 30%. It seems that the method of buying the MA breakout cannot be proved to be a consistent strategy but in the meanwhile could be a profitable strategy if suitable portfolio and risk management models are applied.
+The success rate of this MA breakout strategy fluctuates over time, and it sometimes drop to as low as 30%. It seems that the method of buying the MA breakout cannot be proved to be a consistent strategy. However, it could be a profitable strategy if suitable portfolio and risk management models are applied.
